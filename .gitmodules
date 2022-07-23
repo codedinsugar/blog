@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/codedinsugar/codedinsugar.github.io.git
+	branch = main
