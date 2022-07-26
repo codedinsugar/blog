@@ -1,7 +1,7 @@
 ---
 title: "How'd I Get Here?  GitHub + Hugo + Namecheap"
 date: 2022-07-25T09:45:59-04:00
-draft: true
+draft: false
 toc: false
 images:
 tags: 
@@ -24,7 +24,7 @@ Whomever should stumble upon this post, this is how I provisioned this blog.
 
 The Hugo team has a good doc on hosting a blog on GitHub Pages [here](https://gohugo.io/hosting-and-deployment/hosting-on-github/), but this is what I did:
 
-1.  From github.com create two public repositories: blog and codedinsugar.github.io.  The first repo name is arbitrary of course, but the second repo name has to be in the syntax of `<github username>.github.io`.
+1.  From github.com create two public repositories: blog and codedinsugar.github.io.  The first repo name is arbitrary of course, but the second repo name has to be in the syntax of `<github username>.github.io`.  Obviously for the sake of this tutorial, just substitute codedinsugar for whatever your github username is.
 2.  From wherever your typewriter sits, clone both repos above to their own paths:
 ```bash
 cd <arbitrary-path>
@@ -60,7 +60,7 @@ hugo new posts/foo.md
 
 #file is created at blog/content/posts/foo.md
 ```
-9.  Run the local hugo server to make sure everything builds and renders successfully:
+9.  Run the local hugo server to make sure everything builds, renders successfully, and most it passes an initial satisfaction test:
 ```bash
 hugo server -D
 
@@ -78,3 +78,17 @@ git commit -m "Adding first post"
 git push origin main
 ```
 12.  Browse to https://github.com/codedinsugar/codedinsugar.github.io and verify your commits.
+13.  Verify HTTPS is enabled for public codedinsugar repo > Settings > Pages > Enforce HTTPS.
+14.  Browse to https://codedinsugar.github.io and enjoy your new site.
+15.  If you don't intend to use custom domain redirection to point to your site then you're done here, otherwise see next section for Namecheap setup.
+
+---
+# Namecheap is also your friend
+
+Namecheap has always been my go to domain registrar for several years.  They're an ICANN accredited registrar and I've never had an issue with their services.  Getting started is pretty simple, create an account and buy a domain name.  Don't worry about buying an SSL certificate from Namecheap since GitHub Pages will be handling [HTTPS](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https).
+
+Namecheap has a [knowledgebase article](https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages/) on how to link your custom domain with GitHub Pages which is exactly what I followed verbatim.
+
+After creating all of the necessary DNS records, head back to your public GitHub Pages repo > Settings > Pages > Custom domain and add your apex domain here e.g. codedinsugar.com.  If the DNS check fails, then you're likely missing a CNAME (case sensitive) file in your public repo.  The value in the CNAME record should be just your apex domain without any http(s):// prefix.
+
+There really isn't much to pointing a custom domain to GitHub Pages, they even have a troubleshooting guide [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages) if you get stuck.  Good luck!
