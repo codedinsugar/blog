@@ -1,7 +1,7 @@
 ---
 title: "Retrieve hyperlinks via cli with shuttle"
 date: 2022-07-30T12:49:42-04:00
-draft: true
+draft: false
 toc: false
 images:
 tags: 
