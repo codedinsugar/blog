@@ -23,7 +23,7 @@ Two apps I use often are [tldr](https://github.com/tldr-pages/tldr) and [cht.sh]
 
  ---
 
-Introducting [shuttle](https://github.com/codedinsugar/shuttle) - a simple cli tool to retrieve hyperlinks.
+## Introducing [shuttle](https://github.com/codedinsugar/shuttle) - a simple cli tool to retrieve hyperlinks.
 
 Usage is fairly simple, just run `./shuttle $arg` and it'll retrieve the contents of a respectively named json file.
 
