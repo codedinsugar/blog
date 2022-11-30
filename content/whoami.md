@@ -23,7 +23,7 @@ TL;DR
 ---
 
 ### SENIOR SITE RELIABILITY ENGINEER | AUGUST 2022 TO PRESENT
-- Automate all the things :)
+- Automate all the reliable things
 
 ### CLOUD OPERATIONS ENGINEER | MARCH 2020 TO AUGUST 2022
 - Collaborates with multiple teams on various projects such as customer production go-lives, high availability testing, severity 1 incidents, security remediation, ecosystem health, code reviews, etc.
@@ -40,7 +40,7 @@ TL;DR
 - Engaged strongly with project management team for on boarding of new clients and accompanying project requirements
 - Developed, tested, and deployed new API methodologies for gaining greater visibility into client-side integrations
 
-### NETWORK ENGINEER | OCTOBER 2009 TO JULY 2015
+### SENIOR NETWORK ENGINEER | OCTOBER 2009 TO JULY 2015
 - Managed daily operation, maintenance, productivity, and growth of entire national IT infrastructure
 - Developed and audited IT policies and procedures to ensure confidentiality, integrity, and availability of data
 - Consolidation of physical servers with Microsoft Hyper-V
