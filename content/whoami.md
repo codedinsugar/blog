@@ -12,9 +12,17 @@ images:
 
 ---
 
-I am an Engineer at heart.  I respect the symbiant circle of simplicity and complexity for the IT field of practice.  Although our industry has seen a paradigm shift to the Cloud, I am grateful to have been part of the preceeding movement.  Working with physical equipment on-premise brings a tangible sense of fulfillment.  The best commit one can push is to take a step back and look at the bigger picture.
+I respect the symbiant circle of simplicity and complexity in my field of practice.  Since 2006, my career has revolved around the areas of Operations, Systems, Networking, Security, Development, and Cloud.  The best commit one can push is to take a step back and look at the bigger picture.
 
-My experience listed below is simply a high level summary of things I've enjoyed doing.
+Accoutrements:
+
+- I love to build, and I respect the power that software gives humans to solve problems.
+- I’ve collaborated with many people of varying degrees to produce scalable software solutions.
+- Operations has put me on the front lines of production and has given me strong visibility into the software development lifecycle.
+- Before cloud, I had a lot of on-premises exposure which in turn has multiplied my appreciation for containerization, orchestration, distributed systems, and infrastructure as code.
+- Reading and writing code is only one discipline of many which is why I have enjoyed pursuing the practices and principles of Site Reliability Engineering.  I believe that to truly understand how software works, you must understand how to make it reliable.
+
+My experience listed below is a high level summary of experiences that I've enjoyed.
 
 TL;DR
 
